@@ -1,11 +1,8 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-     // get the menu and the checkbox
-     const menu = document.getElementById('menu');
-     const checkbox = document.getElementById("checkbox");
 
-     // listen for clicks outside the menu to close it
+     // listen for clicks outside the menu (and the checkbox) to close it
      document.onclick = function (clickEvent) {
           if (clickEvent.target.id !== 'menu' && clickEvent.target.id !== 'checkbox') {
                document.getElementById("checkbox").checked = false;
