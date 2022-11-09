@@ -6,9 +6,8 @@ const Subastas = () => {
                <section className="about" id="about">
                     <div className="content">
                          <h1>Subastas 💰</h1>
-                         <p className="guide-p">Mauris pulvinar tellus sit amet nulla bibendum commodo. Nullam quis blandit velit, a
-                              eleifend elit. Ut dignissim, magna id bibendum venenatis, odio sem tincidunt dolor, sed aliquet mi
-                              massa vel est.</p>
+                         <p className="guide-p">Son el mayor flujo de comercio entre jugadores en el servidor.
+                              Para acceder al menú de subastas utiliza <b>/ah</b></p>
 
                          <div className="link-container">
                               <Link to="/vehiculos" className="link">Siguiente - Vehiculos 👀</Link>

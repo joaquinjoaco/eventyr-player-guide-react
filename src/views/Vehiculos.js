@@ -15,18 +15,18 @@ const Vehiculos = () => {
                               Fragmentos de Azufre por diez unidades de este en el Mecánico.
                          </p>
                          <br />
-                         <p className="guide-p">Vehículos disponibles hasta el momento:
-                              <ul>
-                                   <li>Submarino</li>
-                                   <li>Taladradora</li>
-                                   <li>Tren</li>
-                                   <li>Tractor</li>
-                                   <li>Helicóptero</li>
-                                   <li>Barco Pirata</li>
-                                   <li>Robot de ataque <a href="https://tienda.eventyrmc.net/category/332875">(adquirible en la
-                                        tienda)</a></li>
-                              </ul>
-                         </p>
+                         <p className="guide-p">Vehículos disponibles hasta el momento:</p>
+                         <ul>
+                              <li>Submarino</li>
+                              <li>Taladradora</li>
+                              <li>Tren</li>
+                              <li>Tractor</li>
+                              <li>Helicóptero</li>
+                              <li>Barco Pirata</li>
+                              <li>Robot de ataque <a href="https://tienda.eventyrmc.net/category/332875">(adquirible en la
+                                   tienda)</a></li>
+                         </ul>
+
                     </div>
                </section>
           </div>
