@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+
+import Navbar from './components/Navbar';
+import Eventyr from "./views/Eventyr";
+import Home from './views/Home';
+import Reglas from "./views/Reglas";
+import Protecciones from "./views/Protecciones";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+
+    <Router>
+      <ScrollToTop />
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/eventyr">
+              <Eventyr />
+            </Route>
+            <Route>
+              <Route path='/reglas'>
+                <Reglas />
+              </Route>
+              <Route path='/protecciones'>
+                <Protecciones />
+              </Route>
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
+
   );
 }
 
