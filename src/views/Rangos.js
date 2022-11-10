@@ -166,7 +166,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑫Leyenda: $100000</b>
+                                   <b>⑫Leyenda: $1000000</b>
                                    <ul className="nested">
                                         <li>Espacios ilimitados en <b>/ah</b></li>
                                         <li>Homes ilimitados</li>

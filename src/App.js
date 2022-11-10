@@ -14,6 +14,7 @@ import Mcmmo from "./views/Mcmmo";
 import Jobs from "./views/Jobs";
 import Subastas from "./views/Subastas";
 import Vehiculos from "./views/Vehiculos";
+import NotFound from "./views/NotFound";
 
 function App() {
 
@@ -63,6 +64,9 @@ function App() {
             </Route>
             <Route path='/vehiculos'>
               <Vehiculos />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
