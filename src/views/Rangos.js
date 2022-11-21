@@ -64,7 +64,7 @@ const Rangos = () => {
                               el comando <b>/ranks</b></p>
                          <br />
                          <ul>
-                              <li><b>①Desterrado: Rango inicial</b></li>
+                              <li><b>①Campesino: Rango inicial</b></li>
                               <br />
                               <li>
                                    <b> ②Explorador: $2000</b>
@@ -87,7 +87,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b> ④Corsario: $8000</b>
+                                   <b> ④Navegante: $8000</b>
                                    <ul className="nested">
                                         <li>5 espacios en <b>/ah</b></li>
                                         <li>Más espacio en la mochila (<b>/bp</b>)</li>
@@ -96,7 +96,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑤Colono: $15000</b>
+                                   <b>⑤Colonizador: $15000</b>
                                    <ul className="nested">
                                         <li>6 espacios en <b>/ah</b></li>
                                         <li>Más espacio en la mochila (<b>/bp</b>)</li>
@@ -118,7 +118,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑦Gobernador: $60000</b>
+                                   <b>⑦Aventurero: $60000</b>
                                    <ul className="nested">
                                         <li>8 espacios en <b>/ah</b></li>
                                         <li>Más espacio en la mochila (<b>/bp</b>)</li>
@@ -129,7 +129,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑧Noble: $100000</b>
+                                   <b>⑧Descubridor: $100000</b>
                                    <ul className="nested">
                                         <li>9 espacios en <b>/ah</b></li>
                                         <li>Muestra items en el chat con <b>[item]</b></li>
@@ -137,7 +137,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑨Virrey: $200000</b>
+                                   <b>⑨Conocido: $200000</b>
                                    <ul className="nested">
                                         <li>Únete a 5 trabajos</li>
                                         <li>5 Homes</li>
@@ -147,7 +147,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑩Rey: $400000</b>
+                                   <b>⑩Famoso: $400000</b>
                                    <ul className="nested">
                                         <li>Teletransportate al bloque de arriba (<b>/top</b>)</li>
                                         <li>Ender chest virtual (<b>/ec</b>)</li>
@@ -156,7 +156,7 @@ const Rangos = () => {
                               </li>
                               <br />
                               <li>
-                                   <b>⑪Héroe: $600000</b>
+                                   <b>⑪Glorioso: $600000</b>
                                    <ul className="nested">
                                         <li>10 espacios en <b>/ah</b></li>
                                         <li>6 homes</li>
@@ -171,12 +171,12 @@ const Rangos = () => {
                                         <li>Espacios ilimitados en <b>/ah</b></li>
                                         <li>Homes ilimitados</li>
                                         <li>Vuela en tus protecciones (<b>/fly</b>)</li>
-                                        <li>
+                                        {/* <li>
                                              Prefijo <b>[<span style={{ color: "#b21e0a" }}>L</span><span
                                                   style={{ color: "#b02c0e" }}>e</span><span style={{ color: "#ad3b12" }}>y</span><span
                                                        style={{ color: "#ab4a16" }}>e</span><span style={{ color: "#a8591a" }}>n</span><span
                                                             style={{ color: "#a6681e" }}>d</span><span style={{ color: "#a37722" }}>a</span>]</b>
-                                        </li>
+                                        </li> */}
                                    </ul>
                               </li>
                          </ul>
