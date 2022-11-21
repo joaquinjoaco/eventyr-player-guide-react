@@ -23,12 +23,12 @@ const Rangos = () => {
 
                               <br />
                               Para mayor información visitar
-                              <a href="https://tienda.eventyrmc.net">nuestra tienda.</a>
+                              <a href="https://tienda.eventyrmc.net"> nuestra tienda.</a>
                          </p>
                          <br />
                          <ul>
                               <li>
-                                   Titán (Adquirible a través de la tienda de Eventyr)
+                                   <b>Titán (Adquirible a través de la tienda de Eventyr)</b>
                                    <ul className="nested">
                                         <li>
                                              Prefijo <b>[<span style={{ color: "#084bf8" }}>T</span><span
